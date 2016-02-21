@@ -19,9 +19,8 @@ export PIP_RESPECT_VIRTUALENV=true
 source /usr/local/bin/virtualenvwrapper.sh
 
 export EDITOR="mvim"
+# for packages like imgcat
 export PATH="/Users/$USER/go:$PATH"
-# Added by install_latest_perl_osx.pl
-[ -r /Users/giannis/.bashrc ] && source /Users/giannis/.bashrc
 
 alias be='bundle exec'
 alias pg='pg_ctl -D /usr/local/var/postgres'
