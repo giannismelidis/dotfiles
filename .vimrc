@@ -19,7 +19,6 @@ set autoindent
 set textwidth=79
 set softtabstop=2
 set shiftround
-set synmaxcol=250
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " OPEN FILES IN DIRECTORY OF CURRENT FILE
