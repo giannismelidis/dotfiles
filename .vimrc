@@ -28,6 +28,7 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 map <leader>e :edit %%<CR>
 map <leader>v :view %%
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 " show the `best match so far' as search strings are typed:
 set incsearch
